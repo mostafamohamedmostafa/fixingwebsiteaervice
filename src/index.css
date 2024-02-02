@@ -1,13 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+section {
+  margin-bottom: 3%;
+}
+span {
+  color: cyan;
+}
+.card {
+  border: none !important;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Hero {
+  background-image: url("./components/images/Hero.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150vh;
+}
+
+.Hero-Text {
+  padding-top: 14%;
+  text-align: center;
+}
+.Hero-Text h1 {
+  font-size: 3.5rem;
+}
+
+.Hero-Text .card img {
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.ServiceHomePage .card {
+  border-radius: 20px 20px 20px 20px;
+  border: lightgray solid 3px !important;
+  text-align: center;
+}
+.ServiceHomePage .card img {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.ServiceHomePage .card img:hover {
+  animation: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transform: scale(1.09);
+}
+.ServiceHomePage .card .card-footer {
+  background-color: gray;
+  border-radius: 0px 00px 20px 20px;
+}
+
+.AboutHomePage2 .Text {
+  margin: auto;
+}
+.AboutHomePage2 h1 {
+  font-size: 3rem;
+}
+
+.Calltoaction,
+.Calltoaction .card {
+  background-image: url("../src/components/images/call2action.png");
+  color: white;
+}
+
+.Footer img {
+  height: 256px;
+  width: 256px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero {
+    background-image: none;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+  }
+
+  .Hero-Text {
+    padding-top: 4%;
+    text-align: center;
+  }
+  .Hero-Text h1 {
+    font-size: xx-large;
+  }
+}
+.WhyUsPage .whyuscard {
+  margin: auto;
+}
+.OfferPricingPageHero h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.OfferPricingPage .Service-prices {
+  margin: auto;
+}
+
+.OfferPricingPageHero .offer-section .card   {
+  height: 128px;
+  width: 128px;
+  margin: auto;
+  text-align: center;
 }
