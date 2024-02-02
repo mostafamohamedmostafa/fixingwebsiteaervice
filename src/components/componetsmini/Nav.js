@@ -18,9 +18,7 @@ function Navigation() {
                                 <li className="nav-item ">
                                     <Link className="nav-link  " aria-current="page" to="fixingwebsiteservice">Home</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="QA">About Us</Link>
-                                </li>
+                            
                                 <li className="nav-item">
                                     <Link className="nav-link" to="QA">QA Page</Link>
                                 </li>
