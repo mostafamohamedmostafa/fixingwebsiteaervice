@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/fixingwebsiteservice/static/css/main.990f0b46.css",
+    "main.js": "/fixingwebsiteservice/static/js/main.a63c9205.js",
+    "static/js/787.96a380e3.chunk.js": "/fixingwebsiteservice/static/js/787.96a380e3.chunk.js",
+    "static/media/Whyusvideo.mp4": "/fixingwebsiteservice/static/media/Whyusvideo.219eef83b2332bca149a.mp4",
+    "static/media/Footer.gif": "/fixingwebsiteservice/static/media/Footer.720572802f3ba3e1eea5.gif",
+    "static/media/Homepage2.png": "/fixingwebsiteservice/static/media/Homepage2.61f9f9fd70cefeebeb86.png",
+    "static/media/Hero.jpg": "/fixingwebsiteservice/static/media/Hero.2b3dff50f12603baaa24.jpg",
+    "static/media/calltoaction.png": "/fixingwebsiteservice/static/media/calltoaction.37ada8e7e69440e44fcc.png",
+    "static/media/Service3.jpg": "/fixingwebsiteservice/static/media/Service3.b218464d6316d93fcc3f.jpg",
+    "static/media/Homepage1.png": "/fixingwebsiteservice/static/media/Homepage1.5566ac3bcd839afa956c.png",
+    "static/media/Service2.jpg": "/fixingwebsiteservice/static/media/Service2.f8450cd0760add0dceee.jpg",
+    "static/media/Service1.jpg": "/fixingwebsiteservice/static/media/Service1.ad08371e8a34ae26c7e9.jpg",
+    "static/media/call2action.png": "/fixingwebsiteservice/static/media/call2action.f68dc342a07336f3c1e7.png",
+    "static/media/logo.svg": "/fixingwebsiteservice/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fixingwebsiteservice/index.html",
+    "main.990f0b46.css.map": "/fixingwebsiteservice/static/css/main.990f0b46.css.map",
+    "main.a63c9205.js.map": "/fixingwebsiteservice/static/js/main.a63c9205.js.map",
+    "787.96a380e3.chunk.js.map": "/fixingwebsiteservice/static/js/787.96a380e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.990f0b46.css",
+    "static/js/main.a63c9205.js"
+  ]
+}
