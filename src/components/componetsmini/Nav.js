@@ -22,7 +22,7 @@ function Navigation() {
                                     <Link className="nav-link" to="QA">About Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="Webtech">QA Page</Link>
+                                    <Link className="nav-link" to="QA">QA Page</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="Whyus">WhyUs Page</Link>
