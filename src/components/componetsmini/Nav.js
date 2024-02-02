@@ -1,46 +1,51 @@
-
-
-
 import { Link, Route, Routes } from 'react-router-dom';
-
-
 
 
 function Navigation() {
     return (
-        <div className="Navigation">
-            <nav className="navbar navbar-expand-sm navbar-light bg-light">
-              
-                <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li className="nav-item active">
-                            <Link className="nav-link" to="Home">Home Page!  </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="QA">QAPage</Link>
-                        </li>
+
+        <section>
+            <div className="Nav ">
+
+                <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                    <div className="container-fluid">
+                        <a className="navbar-brand" href="#">Home</a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse " id="navbarNav">
+                            <ul className="navbar-nav ms-auto p-2">
+                                <li className="nav-item ">
+                                    <Link className="nav-link  " aria-current="page" to="Home">Home</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="QA">About Us</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="Webtech">QA Page</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="Whyus">WhyUs Page</Link>
+                                </li>
+
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="Offer">OfferPricingPage</Link>
+                                </li>
 
 
-                        <li className="nav-item">
-                            <Link className="nav-link" to="Whyus">WhyUsPage</Link>
-                        </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link " to="Contact">ContactPage</Link>
+                                </li>
 
-                        <li className="nav-item">
-                            <Link className="nav-link" to="Offer">OfferPricingPage</Link>
-                        </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
 
-                    
-                    </ul>
+            </div>
+        </section>
 
-                </div>
-            </nav>
-        </div>
     );
 }
 
 export default Navigation;
-
