@@ -12,7 +12,7 @@ function WhyUsPage() {
 
                 <section className="container-fluid HeroWhyUS">
                     <div>
-                        <video src={video} autoplay loop controls> </video>
+                        <video className="container-fluid " src={video} autoplay loop controls> </video>
                     </div>
                 </section>
 
